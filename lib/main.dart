@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:french_app/login_screen.dart';
+import 'package:french_app/screens/home_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: LoginScreen(),
+      home: HomePage(),
       debugShowCheckedModeBanner: false,
     );
   }
